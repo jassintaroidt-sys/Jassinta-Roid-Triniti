@@ -186,7 +186,7 @@ export const opening = {
   },
   introVideo: {
   src: vid("VIDEO PERKENALAN JASSINTA ROID TRINITI.mp4"),
-  poster: img("FOTO JASSINTA TAMPAK DEPAN.png"),
+  poster: img("foto_jassinta_duduk.png"),
 },
   flyers: [
     { src: img("Flyer Hari Besar 1_Lassiewear.png"), aspect: "1080/1350", alt: "Flyer Hari Besar 1 — Lassiewear" },

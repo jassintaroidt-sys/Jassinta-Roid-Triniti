@@ -9,7 +9,7 @@ export const Hero: React.FC<HeroProps> = ({ isMobile = false }) => {
   const [photoSrcIdx, setPhotoSrcIdx] = useState(0);
 
   const photoCandidates = [
-  '/images/FOTO JASSINTA TAMPAK DEPAN.png',
+  '/images/foto_jassinta_duduk.png',
   '/images/FOTO JASSINTA ROID TRINITI ESTETIK.png',
 ];
 
