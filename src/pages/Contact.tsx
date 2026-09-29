@@ -64,14 +64,10 @@ export const Contact: React.FC = () => {
       {/* ============================================================ */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden z-0">
         <img
-          src="/assets/FOTO JASSINTA ROID TRINITI ESTETIK.png"
-          alt="Jassinta Roid Triniti"
-          onError={(e) => {
-            (e.currentTarget as HTMLImageElement).src =
-              'https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1200&auto=format&fit=crop';
-          }}
-          className="w-full h-full object-cover scale-105 filter brightness-90 contrast-105"
-        />
+  src="/images/FOTO JASSINTA ROID TRINITI ESTETIK.png"
+  alt="Jassinta Roid Triniti"
+  className="w-full h-full object-cover scale-105 filter brightness-90 contrast-105"
+/>
         {/* 50% Black transparency element covering the entire screen */}
         <div className="absolute inset-0 bg-black/50 pointer-events-none" />
         {/* Subtle cinematic gradient vignette for depth */}

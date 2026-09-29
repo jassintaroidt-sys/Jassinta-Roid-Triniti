@@ -9,11 +9,9 @@ export const Hero: React.FC<HeroProps> = ({ isMobile = false }) => {
   const [photoSrcIdx, setPhotoSrcIdx] = useState(0);
 
   const photoCandidates = [
-    '/assets/FOTO JASSINTA TAMPAK DEPAN.png',
-    '/FOTO JASSINTA TAMPAK DEPAN.png',
-    '/assets/FOTO JASSINTA ROID TRINITI ESTETIK.png',
-    'https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1200&auto=format&fit=crop',
-  ];
+  '/images/FOTO JASSINTA TAMPAK DEPAN.png',
+  '/images/FOTO JASSINTA ROID TRINITI ESTETIK.png',
+];
 
   const handlePhotoError = () => {
     if (photoSrcIdx + 1 < photoCandidates.length) {
