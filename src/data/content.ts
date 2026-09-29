@@ -57,6 +57,7 @@ export interface EditorialItem {
   contentType: string;
   kind: "video" | "image";
   src: string;
+  poster?: string;
   aspect: string;
   company: string;
   account: string;
@@ -69,6 +70,7 @@ export interface StrategyItem {
   slug: string;
   label: string;
   video: string;
+  poster?: string;
   about: string;
   best: string;
   reference: { image: string; by: string };
@@ -85,6 +87,7 @@ export interface ArchiveExtra {
   type: string;
   kind: "image" | "video";
   src: string;
+  poster?: string;
   aspect: string;
 }
 
@@ -182,8 +185,9 @@ export const opening = {
     src: vid("Video HERO.webm"),
   },
   introVideo: {
-    src: vid("VIDEO PERKENALAN JASSINTA ROID TRINITI.mp4"),
-  },
+  src: vid("VIDEO PERKENALAN JASSINTA ROID TRINITI.mp4"),
+  poster: img("FOTO JASSINTA TAMPAK DEPAN.png"),
+},
   flyers: [
     { src: img("Flyer Hari Besar 1_Lassiewear.png"), aspect: "1080/1350", alt: "Flyer Hari Besar 1 — Lassiewear" },
     { src: img("Flyer Hari Besar 3_Lassiewear.png"), aspect: "1080/1350", alt: "Flyer Hari Besar 3 — Lassiewear" },
